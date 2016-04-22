@@ -27,7 +27,7 @@ fields:
 
 Since the field itself is not visible, it doesn't matter where you place it in the blueprint (on top, or below... it doesn't matter at all).
 
-- That's it - all blueprint with this field (or ```plug-in```) will now show a preview of an image / file, instead of a text-list.
+**That's it** - all blueprints with this field (or ```plug-in```) will now show a preview of an image / file, instead of a text-list.
 
 ****
 
