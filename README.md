@@ -3,6 +3,13 @@
 #### Version 1.0.0 - 2016-04-22
 - Initial Public Offering...
 
+#### Version 1.2.5 - 2016-04-24
+- Toggle grid / list view
+- Minor bugfixes
+- Better CSS logic
+- FontAwesome icon for files
+- Minified assets
+
 ****
 
 ### What is it?
