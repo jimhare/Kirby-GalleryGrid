@@ -60,8 +60,12 @@
 
     if($(gallerygrid__image_source).length) {
       clearInterval(gallerygrid__timer);
-      gallerygrid__set_toggle();
-      gallerygrid__get_image_src();
+
+        if(!$("#gallerygrid_toggle").length) {
+          gallerygrid__set_toggle();
+          gallerygrid__get_image_src();
+        }
+
       gallerygrid__debug("all routines stopped");
     }
 
