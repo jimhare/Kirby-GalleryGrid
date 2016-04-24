@@ -56,5 +56,10 @@ Kirby will render all thumbnails in the size, set by the config-file.
 
 ****
 
-![Kirby - GalleryGrid](kirby-gallerygrid.gif "Kirby - GalleryGrid")
+![Kirby - GalleryGrid](kirby-gallerygrid_v100.gif "Kirby - GalleryGrid")
 *Version 1.0.0*
+
+---
+
+![Kirby - GalleryGrid](kirby-gallerygrid_v125.gif "Kirby - GalleryGrid")
+*Version 1.2.5*
