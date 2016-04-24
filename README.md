@@ -32,7 +32,7 @@ fields:
     type: gallerygrid
 ```
 
-Since the field itself is not visible, it doesn't matter where you place it in the blueprint (on top, or below... it doesn't matter at all).
+Since the field itself is not visible, it doesn't matter where you place it in the blueprint (on top, or below... it doesn't matter).
 
 **That's it** - all blueprints with this field (or ```plug-in```) will now show a preview of an image / file, instead of a text-list.
 
@@ -57,9 +57,11 @@ Kirby will render all thumbnails in the size, set by the config-file.
 ****
 
 ![Kirby - GalleryGrid](kirby-gallerygrid_v100.gif "Kirby - GalleryGrid")
+
 *Version 1.0.0*
 
 ---
 
 ![Kirby - GalleryGrid](kirby-gallerygrid_v125.gif "Kirby - GalleryGrid")
+
 *Version 1.2.5*
