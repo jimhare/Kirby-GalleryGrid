@@ -10,6 +10,9 @@
 - FontAwesome icon for files
 - Minified assets
 
+#### Version 1.2.7 - 2016-07-04
+- Bugfix when no images are present
+
 ****
 
 ### What is it?
