@@ -3,8 +3,8 @@
 class GalleryGridField extends BaseField {
 
   static public $assets = array(
-    "css" => array("gallerygrid.min.css"),
-    "js" => array("gallerygrid.min.js")
+    "css" => array("gallerygrid.css"),
+    "js" => array("gallerygrid.js")
   );
 
   public function content() {

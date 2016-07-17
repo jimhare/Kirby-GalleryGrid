@@ -1,7 +1,7 @@
 /* Some vars, outside the scoop */
 
   var gallerygrid__sizes = [];
-  var gallerygrid__debuging = 1;
+  var gallerygrid__debugging = false;
 
 /* Main function, triggered when the "field" is loaded */
 
@@ -41,7 +41,7 @@
 /* Show some debug-info in the console */
 
   function gallerygrid__debug(msg) {
-    if(window.console && gallerygrid__debuging) {
+    if(window.console && gallerygrid__debugging) {
       console.log("[gallerygrid] " + msg);
     }
   }
@@ -52,29 +52,15 @@
 
 /* Initialize the timer; check if desired elements do exist */
 
-  var gallerygrid__checked = 0;
-  var gallerygrid__timer = setInterval(function() {
-    gallerygrid__checker();
-  }, 1000);
+  if($(gallerygrid__image_source).length) {
 
-  function gallerygrid__checker() {
+      if(!$("#gallerygrid_toggle").length) {
+        gallerygrid__set_toggle();
+        gallerygrid__get_image_src();
+      } else {
+        gallerygrid__debug("no assests found on this page");
+      }
 
-    gallerygrid__checked++;
-
-    if($(gallerygrid__image_source).length || gallerygrid__checked == 5) {
-      clearInterval(gallerygrid__timer);
-
-        if(!$("#gallerygrid_toggle").length && gallerygrid__checked != 5) {
-          gallerygrid__set_toggle();
-          gallerygrid__get_image_src();
-        } else {
-          gallerygrid__debug("no assests found on this page");
-        }
-
-      gallerygrid__debug("all routines stopped");
-    }
-
-    gallerygrid__debug("checking for context menu [" + gallerygrid__checked + "]");
   }
 
 /* ------------------------------------------ */
